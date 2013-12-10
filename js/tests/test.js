@@ -3,7 +3,7 @@ var dependencies = [
 ]
 
 //define the test files that are going to required in
-var testSuites = ["tests/models/user/FS", "tests/models/RSA", "tests/models/Chunk"] 
+var testSuites = ["tests/models/user/FS", "tests/models/RSA", "tests/models/Chunk", "tests/crypt/rsa/base64"] 
 
 var requireConfig = {
   baseUrl : "/js",
